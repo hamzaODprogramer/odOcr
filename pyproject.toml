@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "odOcr"
+version = "0.1.0"
+description = "Lightweight OCR desktop app - paste from clipboard, extract text, copy to clipboard"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+keywords = ["ocr", "clipboard", "desktop", "tesseract"]
+
+dependencies = [
+    "pytesseract>=0.3.10",
+    "Pillow>=10.0.0",
+    "pystray>=0.19.0",
+    "pyperclip>=1.8.2",
+]
+
+[project.scripts]
+odOcr = "odOcr.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["odOcr*"]
