@@ -6,8 +6,6 @@
 
 **Status**: Draft
 
-**Input**: User description: "ana brit n9ade ocr desktop app dyal OCR, ya3ni ana han dire paste from clipbord et howa radi idire image to planTExt (had ocr 5aso idire extract text from image and the text should descript content image if possible), also the app should run from terminal using 'odOcr' and shourtcut key 'ctrl + o'"
-
 ## User Scenarios & Testing *(mandatory)*
 
 ### User Story 1 - Paste-and-OCR from Clipboard (Priority: P1)
